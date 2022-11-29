@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+.logo-m {
+  width: 120px;
+  height: 120px;
+  margin-left: 0px;
+}
 .logo {
   width: 120px;
   height: 120px;
@@ -119,6 +124,9 @@
   color: white;
   font-size: 30px;
 }
+.unilogo{
+  justify-content: space-evenly;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -152,10 +160,11 @@
     width: 0px;
     height: 0px;
   }
-  .unilogo{
-    justify-content:center;
+  .formobile{
+    padding: 10px;
+    margin-left: 25px;
   }
-  
+
 }
 
 .glow {
@@ -226,8 +235,4 @@
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
-
-.unilogo{
-  justify-content: space-evenly;
 }
