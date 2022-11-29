@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.cimpa.info/">
+          <img
+            src="cimpa-carre.jpg"
+            class="logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active bold" id="navItem1" href="index.html">
+              Introduction
+              
+            </a>
+            <a class="nav-link bold" href="reg.html" id="navItem2">Registration</a>
+            <a class="nav-link bold" href="courses.html" id="navItem3">Courses</a>
+            <a class="nav-link bold" href="lec.html" id="navItem4">Lectures</a>
+            <a class="nav-link bold" href="program.pdf" id="navItem5">Program</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="cimpa-container d-flex justify-content-center flex-column">
+      <div>
+        <h4 class="banner-heading-1 mb-3">CIMPA Research School on</h4>
+        <h1 class="banner-heading mb-3 glow" > Post-Quantum Cryptography </h1>
+        <h4 class="banner-heading-2 mb-3" >Pondicherry University</h4>
+        <h4 class="banner-heading-3 mb-3" >Kalapet, Puducherry</h4>
+        <h4 class="banner-heading-4 mb-3" >December, 10-21 2023</h4>
+      </div>
+    </div>
+    <div class="intro-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="intro-section-heading">Courses</h1>          
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 1</h1>
+              
+
+              <p style="font-weight:bold;">Title: Lattice-based post-quantum cryptography</p>
+              
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Alice Pellet-Mary</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup">Lattice-based cryptography is the generic term for constructions of
+                  cryptographic primitives that involve lattices, either in the construction itself or in the security proof.
+                  Lattice-based constructions are currently important candidates for post-quantum cryptography. In
+                  this course we will mainly study the basics of some public-key encryption schemes based on NTRU
+                  (shortest vector problem) and on LWE (Learning with Errors problem).</span>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 2</h1>
+              
+
+              <p style="font-weight:bold;">Title: Code-based post-quantum cryptography</p>
+             
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Jean-Christophe Deneuville</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction1() {
+                  var popup = document.getElementById("myPopup1");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction1()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup1">
+
+                  Code-based cryptography (CBC) is one of the well-known post-quantum
+cryptography primitives and secured its position in the outcome of 3rd round NIST competition as
+one of the finalist encryption schemes. One of its most promising applications is the design of
+cryptographic schemes with exceptionally strong security guarantees and other desirable properties.
+In this course we will mainly study the basics of some public-key encryption schemes based on
+McEliece and the Niederreiter encryption schemes.
+                </span>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 3</h1>
+              
+
+              <p style="font-weight:bold;">Title: Isogeny-based post-quantum cryptography</p>
+              
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Annamaria Iezzi</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction2() {
+                  var popup = document.getElementById("myPopup2");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction2()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup2">Isogeny-based cryptography is a young and very active subfield of post-quantum 
+                  cryptography based on the mathematical problem of constructing an isogeny, i.e. a well-behaved map, 
+                  between two given elliptic curves over finite fields. Since 1997 and especially in the past 10-15 years, 
+                  several schemes based on isogenies have been proposed, mostly in the context of post-quantum key exchange 
+                  and post-quantum digital signatures. In this course, after reviewing the mathematical and cryptographic setting, 
+                  we will describe some of the most promising isogeny-based protocols and we will discuss some open problems 
+                  related to the field.</span>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 4</h1>
+              
+
+              <p style="font-weight:bold;">Title: Hash functions based post-quantum cryptography</p>
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Peter Schwabe</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction3() {
+                  var popup = document.getElementById("myPopup3");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction3()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup3">Hash functions are most widely deployed tools to construct
+                  cryptographic algorithms in practice and lead an alternate direction to achieve post-quantum
+                  security. Starting with Lamport’s one-time signature, designing few-time signatures and further
+                  devising stateful and stateless signatures is the current state of development. In this course the
+                  speaker will mainly cover the basics of these signature schemes and some recently shortlisted
+                  constructions by NIST.</span>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 5</h1>
+              
+
+              <p style="font-weight:bold;">Title: Multivariate post-quantum cryptography</p>
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Dhananjoy Dey</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction4() {
+                  var popup = document.getElementById("myPopup4");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction4()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup4">
+                  Multivariate-based cryptography is based on the hardness of finding a
+solution to a system of multivariate quadratic equations over finite fields. Multivariate-based
+primitives make it possible to obtain signature schemes which provide short signatures.
+Additionally, this primitive also makes it possible to design signature schemes in which the
+verification of the signature is very fast. By this approach, high performances can also often be
+reached for the signature phase. Thus, digital signature schemes can be implemented cheaply
+on ASICs. Another advantage of multivariate-based primitives is their flexibility in the design of
+
+various schemes, with ad-hoc properties. In this course we will mainly study the basics of
+multivariate-based signatures schemes such as Rainbow scheme, and the GeMMS scheme.
+                </span>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow menu-item-card p-3 mb-3">
+              
+              <h1 class="co-card-title">Course 6</h1>
+              
+
+              <p style="font-weight:bold;">Title: Programming for cryptography with a focus on Python for blockchain</p>
+              
+              
+              <p>Level: Master/PhD              </p>
+              <p>Lecturer: Denis Verstraeten</p>
+              <script>
+                // When the user clicks on div, open the popup
+                function myFunction5() {
+                  var popup = document.getElementById("myPopup5");
+                  popup.classList.toggle("show");
+                }
+                </script>
+              <div class="popup" onclick="myFunction5()" style="color: blue;">Abstract
+                <span class="popuptext" id="myPopup5">
+                  This practice course intends to introduce Python as the main scripting
+language. The objective is to teach how this programming can be used to perform cryptographic
+operations and to deal with blockchain related Application Programming Interfaces (API).This course
+also introduces the Ethereum Smart Contract paradigm, as well as its most popular language,
+Solidity. Ideally, the teaching should be based on a small project which should be doable in the
+allocated time frame.
+                </span>
+              </div>
+              
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+   
+    <div class="bottom-section pt-5 pb-5">
+      <div class="container">
+        <h1 class="co-section-heading">Sponsors</h1>
+      </div>
+    </div>
+  </body>
+</html>

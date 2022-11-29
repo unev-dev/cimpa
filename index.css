@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-left: 0px;
+}
+.logo_ub {
+  width: 180px;
+  height: 80px;
+  margin-left: 0px;
+}
+#navItem1 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem2 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem3 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem4 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem5 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+  
+}
+.intro-section {
+  background-color: #f9fbfe;
+}
+.intro-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.intro-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.co-section {
+  background-color: white;
+}
+.co-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.co-card-title {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+  font-weight: bold;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu-item-card {
+  border-radius: 16px;
+}
+
+.org-section {
+  background-color: #f9fbfe;
+}
+
+.bottom-section {
+  background-color: #d0b2001a;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 601px) {
+  .cimpa-container {
+    background-image: url("q.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.banner-heading-1 {
+  color: white;
+  font-size: 30px;
+}
+.banner-heading-2 {
+  color: white;
+  font-size: 33px;
+}
+.banner-heading-3 {
+  color: white;
+  font-size: 30px;
+}
+.banner-heading-4 {
+  color: white;
+  font-size: 30px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .cimpa-container {
+    background-image: url("q.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-heading-1 {
+    color: white;
+    font-size: 20px;
+  }
+  .banner-heading-2 {
+    color: white;
+    font-size: 27px;
+  }
+  .banner-heading-3 {
+    color: white;
+    font-size: 20px;
+  }
+  .banner-heading-4 {
+    color: white;
+    font-size: 25px;
+  }
+}
+
+.glow {
+
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00d03e, 0 0 40px #0ce61e94, 0 0 50px #0ce61e94, 0 0 60px #0ce61e94, 0 0 70px #0ce61e94;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d0b200, 0 0 40px #d0b200, 0 0 50px #d0b200, 0 0 60px #d0b200, 0 0 70px #d0b200, 0 0 80px #d0b200;
+  }
+}
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: #f5e89e;
+  color: black;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.unilogo{
+  justify-content: space-evenly;
+}
