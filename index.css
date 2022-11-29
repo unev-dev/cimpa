@@ -144,6 +144,18 @@
     color: white;
     font-size: 25px;
   }
+  .logo {
+    width: 0px;
+    height: 0px;
+  }
+  .logo_ub{
+    width: 0px;
+    height: 0px;
+  }
+  .unilogo{
+    justify-content:center;
+  }
+  
 }
 
 .glow {
